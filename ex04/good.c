@@ -3,7 +3,7 @@
 
 /* Function name starts with a verb and describes the action. [web:11] */
 /* Check malloc result and avoid memory leaks. [web:15][web:24] */
-int *allocateIntArray(int size)
+static int *allocateIntArray(int size)
 {
     int *array = NULL;
     int index = 0;
