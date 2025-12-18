@@ -1,20 +1,18 @@
 #include <stdio.h>
 
-int length(char *s)
+int lenght(char *s)
 {
     int i = 0;
-
-    while (s[i] != '\0') {
-        i++;
-    }
-    return i;
+    
+    for (; s[i] != '\0'; i += 1)
+        return i;
 }
 
 int main()
 {
     char *msg = "hello";
-    int len = length(msg);
-    printf("len = %d\n", len);
+    
+    printf("len = %d\n", lenght(msg));
     return 0;
 }
 
