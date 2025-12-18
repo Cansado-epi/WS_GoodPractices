@@ -1,0 +1,37 @@
+Here are 10 good practice principles you should follow to keep your code clean, secure, and maintainable
+
+1. Prioritize readability: write clear, simple code that others (and future you) can understand quickly.  
+
+2. Aim for safety: avoid undefined behavior, validate inputs, and check all error conditions.  
+
+3. Design for robustness: make code fail loudly and predictably instead of silently ignoring problems.  
+
+4. Keep functions focused: each function should do one thing clearly and be easy to test.  
+
+5. Control complexity: prefer straightforward logic over clever tricks that obscure intent.  
+
+6. Encapsulate data: hide internal details behind well-defined interfaces and use headers cleanly.  
+
+7. Manage resources carefully: allocate, use, and free memory and other resources in a disciplined way.  
+
+8. Name intent: use variables, MACROS and functions() names to explain what the code is doing.  
+
+9. Support maintainability: write code that is easy to modify, extend, and refactor over time.
+
+10. "If you can do more, you can do less": compile with : gcc/clang -Wall -Wextra -Wpedantic -Wconversion -Wshadow -Wstrict-prototypes -Wmissing-prototypes -Werror
+
+    -Wall -> Enable a broad set of common, important warnings about suspicious code.
+
+    -Wextra -> Turn on additional, more strict warnings that can catch subtle issues.
+
+    -Wpedantic -> Warn about all uses of non‑standard or non‑portable language features.
+
+    -Wconversion -> Warn about implicit type conversions that may lose data or change values.
+
+    -Wshadow -> Warn when a local variable hides another variable with the same name.
+
+    -Wstrict-prototypes -> Require proper function prototypes with explicit parameter lists.
+
+    -Wmissing-prototypes -> Warn if global functions are defined without a prior prototype declaration.
+
+    -Werror -> Treat all warnings as compilation errors so no warning can be ignored.
